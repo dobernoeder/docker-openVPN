@@ -20,7 +20,7 @@ stages:
 build:
   image: $CI_BUILD_IMAGE
   stage: build
-  timeout: 2h
+  timeout: 10h
   services:
     - name: $CI_DIND_IMAGE
       alias: docker
