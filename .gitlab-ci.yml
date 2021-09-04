@@ -50,7 +50,6 @@ build:
     - BUILD_CONTAINER="buildx_buildkit_""$BUILD_CONTAINER""0"
     - docker buildx inspect --bootstrap
   script:
-    - docker pull $CI_REGISTRY_IMAGE:master-cache
     - docker buildx ls
     - >
       docker buildx build
