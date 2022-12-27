@@ -1,7 +1,7 @@
 # Changelog
 Documentation of changes
 
-## [2.5.0] - 2022-ß4-09
+## [2.5.0] - 2022-04-09
 ### Changed
 - Updated alpine image to 3.14
 - Updated openVPN version to 2.5.6
